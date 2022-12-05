@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Flatacuties</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="Character-bar">
+    </div>
+      <div id="detailed-info">
+        <p id="name">Candidate's Name</p>
+        <img
+          id="image"
+          src="assets/dummy.gif"
+          alt="Character's Name"
+        />
+        <h4>My Total Votes: <span id="vote-count">Candidate's Votes</span></h4>
+        <form id="votes-form">
+          <input min= 0 type="text" placeholder="Cast Votes" id="votes" name="votes" />
+          <input type="submit" value="Add Votes" />
+        </form>
+        <button id="reset-btn">Reset</button>
+      </div>
+    <script src="/public/index.js"></script>
+  </body>
+</html>
