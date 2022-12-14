@@ -1,8 +1,38 @@
 # code-challenge-2
 
-Description:To develop an app where you can vote for the cutest animal! We will use a local API and build out the frontend for our app, Flatacuties.
+Description:
 
-Setup:To run this program, fork or clone the repository into your local computer via
+This application allows you to vote for the various animals in the list. Each button directs you to the named animal, and you can be able to insert the votes for each animal at time.
+
+
+User Story:
+
+the user is able to enter the votes starting from 1 and vote for each animal. There is also a reset button to be able to reset the added input for each animal
+to vote the maximum number is 99 and to dislike or vote-down one can only vote to -9 as the maximum limit set.
+
+Development Requirements:
+
+Visual Studio Code.
+
+Live server extension.
+
+json-server packages installed
+
+npm
+
+Browser(Chrome or any other Chromium based Browser)
+
+
+
+Access:
+To get the code..Go to the below github repository to access the files.
+
+https://github.com/PapitoSpence/code-challenge-2/tree/main/public
+
+
+Program Setup:
+
+To run this program, clone the repository into your local computer via
 
                       git@github.com:PapitoSpence/code-challenge-2.git 
   
@@ -17,11 +47,26 @@ Proceed to npm run start in which it should lead you to the json server as displ
 
 ![image](https://user-images.githubusercontent.com/117740002/205619071-dd34a9eb-da97-4979-a65c-228bd36def32.png)
 
-Go to index.html and go live to check on the app. 
-The 5 cute animals are well displayed and as a user you have been given access rights to cast your votes.
+
+Before running the application
 
 
-Tchnology used: HTML and JavaScript.
+The following command will activate the backend before testing the application. You can run the following command in the terminal inside the VS Code
+
+ json-server --watch db.json 
+Running the application
+right click on the index.html file and run using Live Server to open the application in your web browser
+Open the application on your browser
+You can now interact with the application and make the necessary inputs.
+
+Technology used:
+
+
+HTML5
+Javascript
+[CSS]
+
+
 
 
 Author: Spencer Mwenda.
